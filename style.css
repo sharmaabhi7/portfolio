@@ -138,14 +138,6 @@ body{
   0 0 25px cyan, 0 0 25px cyan;
   border: 2px solid rgb(24, 180, 191);
 }
-/* .about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    padding-bottom: 6rem;
-} */
 .about{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -237,19 +229,6 @@ body{
 .services-list div a:hover{
     box-shadow: 0 0 25px #0ef, 0 0 50px #0ef;
 }
-/* .read{
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
-} */
 .services-list div:hover{
     transform: translateY(-15px);
 }
