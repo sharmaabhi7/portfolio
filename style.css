@@ -479,7 +479,7 @@ body{
 .contact-form form .send:hover{
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .navbar {
         display: flex;
         flex-direction: column;
@@ -491,6 +491,9 @@ body{
     }
     .active{
         display: flex;
+    }
+    .skills{
+        padding: 50px 80px;
     }
     .navbar {
         display: flex;
@@ -519,6 +522,9 @@ body{
     .header i:hover{
         color: #0ef;
         cursor: pointer;
+    }
+      .contact-form{
+        display: none;
     }
 }
 
