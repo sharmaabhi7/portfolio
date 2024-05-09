@@ -480,19 +480,17 @@ body{
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan;
 }
 @media only screen and (max-width: 600px) {
-    .form button{
-        width: 380px;
-        height: 46px;
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+        padding: 15px 130px;
+        display: none; 
     }
-    .form input{
-        width: 380px;
-        height: 46px;
-    }
-    .form{
-        margin: 700px 0px;
-    }
-    .skills{
-        padding: 50px 80px;
+    .active{
+        display: flex;
     }
     .navbar {
         display: flex;
