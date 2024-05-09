@@ -5,3 +5,6 @@ var typed = new Typed(".text",{
     backDelay:500,
     loop:true
 });
+function abhi(){
+    tog.className = "navbar active"
+}
