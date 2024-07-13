@@ -5,6 +5,14 @@ var typed = new Typed(".text",{
     backDelay:500,
     loop:true
 });
+var click = 0;
 function abhi(){
-    tog.className = "navbar active"
+    if(click===0){
+        tog.className = "navbar active"
+        click = 1;
+    }
+    else {
+        tog.className = "navbar"
+        click = 0;
+    }
 }
