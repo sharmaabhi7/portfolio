@@ -491,6 +491,9 @@ body{
         display: flex;
 
     }
+  .skills{
+        padding: 50px 80px;
+    }
     .header i{
         display: flex;
         font-size: 25px;
